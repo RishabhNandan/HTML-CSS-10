@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(Assest/bgimage.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 100%;
+}
+
+.container{
+    background-color: rgba(0, 0, 0, .4);
+    height: 100%;
+    background: linear-gradient(#000000);
+}
+
+.navbar{
+    margin: 0 2rem 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 2rem;
+}
+
+.logo{
+    height: 2.5em;
+}
+
+.grow-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 1.5rem;
+}
+
+.list{
+    display: flex;
+    align-items: center;
+    font-size: .8rem;
+    gap: 1rem;
+    font-weight: 700; 
+}
+  
+.list-item{
+    list-style:none;
+    color: #ffffff;
+    display: flex;
+    cursor: pointer;
+}
+
+.contact{
+    color: #ffffff;
+    text-align: center;
+    list-style: none;
+    cursor: pointer;
+}
+
+.linee{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.line{
+    height: .3rem;
+    width: 29rem;
+    margin-right: 1rem;
+    background-color: #ffffff;
+    border-radius: 50px;
+}
+
+.nav-menu-icon{
+    font-size: 2.5rem;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+  
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-text{
+    margin-top: 7rem;
+    margin-left: 2rem;
+    font-size: 2.5rem;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid #fff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 16px;
+    margin-top: 3rem;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: #2c2c2c;
+}
+
+.info-boxes {
+    display: flex;
+    flex-direction: column;
+}
+  
+.info-box {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+    max-width: 20rem;
+    color: #ffffff;
+    text-align: center;
+    background-color: rgb(129, 128, 128);
+    padding: 2rem ;
+}
+  
+.icon {
+    display: flex;
+    align-self: flex-start;
+    padding: 8px 24px;
+    border-radius: 25px;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    background-color: #ffffff;
+    color: #000000;
+}
+  
+.info-box p {
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+@media (min-width: 412px) {
+    .main-text{
+        /* width: 45vh; */
+        justify-content: center;
+    }
+}
+
+@media (min-width: 650px) {
+    .nav-menu-icon{
+        display: none;
+    }
+    .main-text{
+        font-size: 3rem;
+        /* width: 54vh; */
+    }
+} 
+
+@media (max-width: 650px) {
+    .list{
+        display: none;
+    }
+    .line{
+        width: 3rem;
+        margin-right: 1rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .list{
+        display: flex;
+        align-items: center;
+        font-size: .95rem;
+        gap: 1rem;
+        font-weight: 750; 
+    }
+    .line{
+        width: 38rem;
+    }
+    body{
+        background-image: url(Assest/bgimage.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: left;
+        height: 100vh;
+    }
+    .main-text{
+        font-size: 3.2rem;
+        /* width: 60vh; */
+    }
+} 
+
+@media (min-width: 1024px) {
+    .list{
+        font-size: 1rem;
+        gap: 1.3rem;
+        font-weight: 800; 
+    }
+    .navbar{
+        margin: 0 7rem 1.5rem 7rem;
+    }
+    .logo{
+        height: 45px;
+    }
+    .line{
+        width: 41.5rem;
+        margin-right: 6rem;
+    }
+    .main-text{
+        font-size: 3.5rem;
+        /* width: 70dvw; */
+        margin-left: 7rem;
+        line-height: 5rem;
+    }
+    .btn{
+        align-self: flex-start;
+        line-height: 1.5rem;
+    }
+}
+    
+
+
+  
+
+
+
+
+
+
+  
+  
+
+  
+  
+
+  
+  
+  
+@media (min-width: 1024px) {
+    .main {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+    .main-content {
+      width: 60%;
+    }
+    .info-boxes {
+      width: 50%;
+      align-items: flex-end;
+      margin-top: 10rem;
+    }
+
+    .info-box {
+      margin: 20px 40px;
+    }
+
+    .info-boxes:nth-child(2) {
+      align-self: flex-start;
+    }
+
+    .info-boxes:nth-child(3) {
+      align-self: flex-end;
+    }
+  }  
+        
+  
+  
