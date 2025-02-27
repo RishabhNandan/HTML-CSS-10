@@ -2,8 +2,8 @@
 # Overview
 The design showcases a professional and elegant look aimed at attracting potential clients interested in interior design services. 
 It effectively uses visual hierarchy and whitespace, creating a clean and inviting user experience.
-# Preview
-**Features**
+# Preview 
+# Features
 * Clean and Modern Design: Minimalistic layout focusing on interior design aesthetics.
 * Responsive Navigation Bar: Links to About Us, Benefits, Projects, Stages, Services, and a call-to-action for contact information.
 * Hero Section: Showcasing a bold statement with a background image of stylish interior furniture.
